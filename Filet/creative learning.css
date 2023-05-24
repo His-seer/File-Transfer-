@@ -1,0 +1,43 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) );
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    margin: 0;
+  }
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  label{
+    margin-bottom: 10px;
+    width: 50%;
+    font-size: 18px;
+    padding-top: 8px;
+  }
+  input, select{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  textarea{
+    width: 50%;
+    font-size: 16px;
+    height: 100px;
+  }
+  input[type="submit"]{
+    width: 10%;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    margin-bottom: 10px;
+  }
